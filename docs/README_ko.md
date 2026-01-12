@@ -299,7 +299,7 @@ python rag_pipeline.py --query "AI란 무엇인가?" --search-type multimodal
 - CUDA 11.8+ (GPU 가속용)
 - Weaviate 1.24+
 - 16GB+ RAM
-- 24GB+ VRAM (전체)
+- 40GB+ VRAM (전체)
 
 ### GPU 설정
 
