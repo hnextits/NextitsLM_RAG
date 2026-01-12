@@ -130,8 +130,8 @@ from generator import SGLangGenerator
 
 # 自定义配置
 config = RAGConfig()
-config.TEXT_TOP_K = 10
-config.IMAGE_TOP_K = 5
+config.TEXT_TOP_K = 
+config.IMAGE_TOP_K = 
 config.ENABLE_QUERY_REWRITE = True
 
 # 初始化组件
@@ -190,15 +190,15 @@ class RAGConfig:
     LLM_MODEL = "Model Name"
     
     # 搜索设置
-    TEXT_TOP_K = 5
-    TEXT_FINAL_K = 3
-    IMAGE_TOP_K = 3
-    IMAGE_FINAL_K = 2
+    TEXT_TOP_K = 
+    TEXT_FINAL_K = 
+    IMAGE_TOP_K = 
+    IMAGE_FINAL_K = 
     
     # 生成设置
-    GENERATOR_MAX_TOKENS = 2048
-    GENERATOR_TEMPERATURE = 0.7
-    GENERATOR_TOP_P = 0.9
+    GENERATOR_MAX_TOKENS = 
+    GENERATOR_TEMPERATURE = 
+    GENERATOR_TOP_P = 
     
     # API设置
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")

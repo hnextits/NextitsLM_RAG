@@ -130,8 +130,8 @@ from generator import SGLangGenerator
 
 # 사용자 정의 설정
 config = RAGConfig()
-config.TEXT_TOP_K = 10
-config.IMAGE_TOP_K = 5
+config.TEXT_TOP_K = 
+config.IMAGE_TOP_K = 
 config.ENABLE_QUERY_REWRITE = True
 
 # 컴포넌트 초기화
