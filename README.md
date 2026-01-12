@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-      <img width="100%" src="" alt="Nextits RAG Banner">
+      <img width="1792" height="310" alt="Data PreProcessing banner Nextits" src="https://github.com/user-attachments/assets/9b3a903e-0eec-44f8-ab44-3c2f93c47beb" />
   </p>
 
 English | [한국어](./docs/README_ko.md) | [简体中文](./docs/README_zh.md)
