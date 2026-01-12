@@ -266,7 +266,7 @@ GENERATE_ENDPOINT=your-endpoint
 
 ### 模型性能
 - **生成速度**: 50-100 tokens/秒 (GPU)
-- **内存使用**: 8-12GB VRAM (7B模型)
+- **内存使用**: 40GB+ VRAM (总计)
 - **批处理**: 最多32个并发查询
 - **吞吐量**: 100+ 查询/分钟
 
@@ -299,7 +299,7 @@ python rag_pipeline.py --query "什么是AI？" --search-type multimodal
 - CUDA 11.8+ (用于GPU加速)
 - Weaviate 1.24+
 - 16GB+ RAM
-- 12GB+ VRAM (用于7B模型)
+- 24GB+ VRAM (总计)
 
 ### GPU配置
 

@@ -266,7 +266,7 @@ GENERATE_ENDPOINT=your-endpoint
 
 ### Model Performance
 - **Generation Speed**: 50-100 tokens/sec (GPU)
-- **Memory Usage**: 8-12GB VRAM (7B model)
+- **Memory Usage**: 40GB+ VRAM (total)
 - **Batch Processing**: Up to 32 concurrent queries
 - **Throughput**: 100+ queries/minute
 
@@ -299,7 +299,7 @@ python rag_pipeline.py --query "What is AI?" --search-type multimodal
 - CUDA 11.8+ (for GPU acceleration)
 - Weaviate 1.24+
 - 16GB+ RAM
-- 12GB+ VRAM (for 7B models)
+- 24GB+ VRAM (total)
 
 ### GPU Configuration
 

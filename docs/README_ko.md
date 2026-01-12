@@ -266,7 +266,7 @@ GENERATE_ENDPOINT=your-endpoint
 
 ### 모델 성능
 - **생성 속도**: 50-100 토큰/초 (GPU)
-- **메모리 사용량**: 8-12GB VRAM (7B 모델)
+- **메모리 사용량**: 40GB+ VRAM (전체)
 - **배치 처리**: 최대 32개 동시 쿼리
 - **처리량**: 100+ 쿼리/분
 
@@ -299,7 +299,7 @@ python rag_pipeline.py --query "AI란 무엇인가?" --search-type multimodal
 - CUDA 11.8+ (GPU 가속용)
 - Weaviate 1.24+
 - 16GB+ RAM
-- 12GB+ VRAM (7B 모델용)
+- 24GB+ VRAM (전체)
 
 ### GPU 설정
 
