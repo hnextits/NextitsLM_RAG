@@ -3,7 +3,7 @@
       <img width="1792" height="310" alt="Data PreProcessing banner Nextits" src="https://github.com/user-attachments/assets/9b3a903e-0eec-44f8-ab44-3c2f93c47beb" />
   </p>
 
-English | [한국어](./README_ko.md) | [简体中文](./README_zh.md)
+English | [한국어](./readme/README_ko.md) | [简体中文](./readme/README_zh.md)
 
 <!-- icon -->
 ![python](https://img.shields.io/badge/python-3.11~3.12-aff.svg)
